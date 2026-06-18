@@ -1,5 +1,5 @@
 free_miners = free_miners or {}
-free_miners.debug = true -- Set to false to disable chat debug logs
+free_miners.debug = false -- Set to true to enable chat debug logs
 
 -- Send a debug message to the entity's owner
 function free_miners.log_debug(entity, message)
